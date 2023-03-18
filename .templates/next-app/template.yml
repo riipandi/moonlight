@@ -1,0 +1,32 @@
+$schema: 'https://moonrepo.dev/schemas/template.json'
+
+title: 'Create Next.js application'
+description: |
+
+  Scaffolds the initial structure for an Next.js application,
+  including source and test folders, a package.json, and more.
+
+variables:
+  name:
+    type: 'string'
+    default: '@myorg/my-app'
+    required: true
+    prompt: 'Package name?'
+
+  port:
+    type: 'number'
+    default: 3000
+    required: true
+    prompt: 'Port number?'
+
+  private:
+    type: 'boolean'
+    default: true
+    required: true
+    prompt: 'Private package?'
+
+  description:
+    type: 'string'
+    default: 'My Next.js application'
+    required: false
+    prompt: 'Description?'

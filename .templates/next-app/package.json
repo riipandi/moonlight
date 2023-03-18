@@ -1,0 +1,58 @@
+{
+  "name": "{{ name | kebab_case }}",
+  "version": "0.1.0",
+   "description": "{{ description }}",
+{% if private %}
+  "private": true,
+  "license": "LicenseRef-LICENSE",
+{% else %}
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+{% endif %}
+  "scripts": {
+    "dev": "next dev --port {{ port }}",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@twistail/icons": "^0.1.0",
+    "clsx": "^1.2.1",
+    "next-plausible": "^3.7.2",
+    "next": "13.2.4",
+    "react-dom": "18.2.0",
+    "react": "18.2.0",
+    "sonner": "^0.2.0",
+    "tailwind-merge": "^1.10.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "18.15.3",
+    "@types/react-dom": "18.0.11",
+    "@types/react": "18.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "autoprefixer": "^10.4.14",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.10.1",
+    "eslint": "8.36.0",
+    "postcss": "^8.4.21",
+    "prettier-plugin-tailwindcss": "^0.2.5",
+    "prettier": "^2.8.4",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "^3.2.7",
+    "typescript": "4.9.5"
+  }
+}
