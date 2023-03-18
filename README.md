@@ -37,7 +37,7 @@ degit feelantera/moonlight my-new-project
 
 ## Quick Start
 
-This repo configured with ESLint, Jest, Prettier, TypeScript s moon tasks.
+This repo configured with ESLint, Jest, Prettier, TypeScript, and Tailwind CSS as moon tasks.
 
 To begin, we suggest installing moon globally, read the documentation [here](https://moonrepo.dev/docs/install).
 
