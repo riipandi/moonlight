@@ -17,7 +17,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
+    "deploy:staging": "fly deploy --remote-only"
   },
   "dependencies": {
     "@twistail/icons": "^0.1.0",
