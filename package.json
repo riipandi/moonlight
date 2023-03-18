@@ -1,5 +1,6 @@
 {
   "name": "flatform",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "g:next-app": "func() { moon generate next-app ./apps/\"$1\" -- --name @myorg/\"$1\"; }; func",
