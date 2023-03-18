@@ -4,6 +4,7 @@
 .vscode/
 .templates/
 .next/
+.moon/
 build/
 dist/
 out/
