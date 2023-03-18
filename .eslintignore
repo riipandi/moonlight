@@ -1,8 +1,8 @@
 .DS_Store?
 .cache/
 .next/
-.templates/
 node_modules/
+templates/
 build/
 cjs/
 coverage/

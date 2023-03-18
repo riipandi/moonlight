@@ -21,4 +21,4 @@ vcs:
 
 generator:
   templates:
-    - './.templates'
+    - './templates'

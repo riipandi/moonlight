@@ -2,9 +2,9 @@
 .fleet/
 .turbo/
 .vscode/
-.templates/
 .next/
 .moon/
+templates/
 build/
 dist/
 out/
