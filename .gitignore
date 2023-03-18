@@ -1,0 +1,38 @@
+# Essentials
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+node_modules/
+.pnp/
+.pnp.js
+*.pem
+
+# moon
+.templates/
+.moon/cache
+.moon/docker
+.moon/dts
+
+# projects
+dist/
+.env.*
+!.env.example
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# next.js
+.next/
+*.tsbuildinfo
+next-env.d.ts
+build/
+out/
+
+# vercel
+.vercel
