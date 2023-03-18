@@ -1,6 +1,8 @@
 FROM cgr.dev/chainguard/node:18 AS base
 # FROM docker.io/node:lts-alpine AS base
 ENV NEXT_TELEMETRY_DISABLED 1
+ENV NODE_ENV production
+ENV PORT 3000
 RUN npm config set update-notifier false && \
     npm config set fund false && \
     npm config set loglevel error
@@ -25,12 +27,10 @@ RUN npm install --no-package-lock --omit=dev
 # Production image, copy all the files and run the application
 # -----------------------------------------------------------------------------
 FROM base AS runner
-LABEL org.opencontainers.image.source="https://github.com/feelantera/flatform"
+LABEL org.opencontainers.image.source="https://github.com/feelantera/moonlight"
 
 ARG DATABASE_URL
 ENV DATABASE_URL $DATABASE_URL
-ENV NODE_ENV production
-ENV PORT 3000
 
 WORKDIR /app
 COPY --from=builder --chown=node:node /app/package.json /app/package.json
@@ -42,6 +42,6 @@ COPY --from=builder --chown=node:node /app/.next/static ./.next/static
 COPY --from=builder --chown=node:node /app/.next/standalone ./
 COPY --from=builder --chown=node:node /app/public ./public
 
-EXPOSE $PORT
+EXPOSE 3000
 
 CMD ["server.js"]
