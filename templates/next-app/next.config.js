@@ -6,7 +6,7 @@ const nextConfig = {
   poweredByHeader: false,
   output: 'standalone',
   images: {
-    domains: ['avatars.githubusercontent.com', 'images.unsplash.com', 'tailwindui.com'],
+    domains: ['images.unsplash.com'],
   },
   experimental: {
     appDir: true,
