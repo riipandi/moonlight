@@ -9,10 +9,10 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 
-[*.{js,jsx,prisma,ts,tsx,yml,yaml}]
+[*.{js,jsx,prisma,ts,tsx}]
 indent_size = 2
 
-[*.{json,md}]
+[*.{json,md,yml,yaml}]
 indent_size = 4
 max_line_length = off
 trim_trailing_whitespace = false
