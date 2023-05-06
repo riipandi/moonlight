@@ -61,11 +61,7 @@ Tasks can also be focused to individual projects. The list of projects can be fo
 This command used for generate package from template:
 
 ```sh
-# Using moon cli:
 moon generate next-app ./apps/website -- --name '@myorg/website' --private
-
-# Using predefined npm script:
-pnpm g:next-app website
 ```
 
 ## Contributing
