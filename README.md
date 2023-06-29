@@ -1,33 +1,13 @@
-<div align="center">
-  <h1>Moonlight</h1>
-  <h3 align="center">Skeleton project using moonrepo</h3>
-  <a href="https://feel.co.id">Website</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://feel.co.id/blog">Blog</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://twitter.com/feelantera">Twitter</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.linkedin.com/company/feelantera">LinkedIn</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.youtube.com/@feelantera">Youtube</a>
-</div>
-
-<hr>
-
-<div align="center">
-
-<!-- [![Repo Sync Status](https://github.com/yml/actions/workflows/repo-sync.yml/badge.svg?branch=main)](https://github.com/yml/actions/workflows/repo-sync.yml) -->
+# Moonlight
 
 [![Contributions](https://img.shields.io/badge/Contributions-welcome-blue.svg?style=flat-square)](./CODE_OF_CONDUCT.md)
 [![GitHub contributors](https://img.shields.io/github/contributors/feelantera/moonlight?style=flat-square)](https://github.com/feelantera/moonlight/graphs/contributors)
 [![License](https://img.shields.io/github/license/feelantera/moonlight?style=flat-square)][choosealicense]
 [![GitHub Sponsors](https://img.shields.io/static/v1?color=26B643&label=Sponsor&message=%E2%9D%A4&logo=GitHub&style=flat-square)](https://github.com/sponsors/feelantera)
 
-</div>
-
 <hr>
 
-This repository contains moonlight packages using [moonrepo](https://moonrepo.dev/) and popular JavaScript tooling.
+This repository contains skeleton project using [moonrepo](https://moonrepo.dev/) and popular JavaScript tooling.
 
 ```sh
 degit feelantera/moonlight my-new-project

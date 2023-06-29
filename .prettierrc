@@ -1,6 +1,9 @@
 {
     "jsxSingleQuote": true,
+    "arrowParens": "always",
+    "bracketSpacing": true,
     "printWidth": 100,
+    "quoteProps": "consistent",
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5",

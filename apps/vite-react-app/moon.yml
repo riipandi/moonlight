@@ -1,0 +1,25 @@
+type: 'application'
+language: 'typescript'
+
+fileGroups:
+    sources:
+        - 'src/**/*'
+    tests:
+        - 'specs/**/*'
+
+tasks:
+  build:
+    command: 'tsc && vite build'
+    inputs:
+      - '@group(sources)'
+
+  dev:
+    command: 'vite'
+    local: true
+
+  preview:
+    command: 'vite preview'
+    local: true
+
+  lint:
+    command: 'eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0'

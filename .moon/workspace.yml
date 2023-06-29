@@ -1,8 +1,9 @@
-# https://moonrepo.dev/docs/config/workspace
+# yaml-language-server: $schema=https://moonrepo.dev/schemas/workspace.json
+
 $schema: 'https://moonrepo.dev/schemas/workspace.json'
 
 # Require a specific version of moon while running commands, otherwise fail.
-# versionConstraint: '>=0.0.0'
+# versionConstraint: '>=1.0.0'
 
 # Extend and inherit an external configuration file. Must be a valid HTTPS URL or file system path.
 # extends: './shared/workspace.yml'
@@ -16,8 +17,8 @@ projects:
   - 'packages/*'
 
 vcs:
-  manager: 'git'
-  defaultBranch: 'main'
+    manager: 'git'
+    defaultBranch: 'main'
 
 generator:
   templates:

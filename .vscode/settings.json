@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.moon/cache": true,
+    },
+    "files.watcherExclude": {
+        "**/.moon/**": true,
+        "**/templates/**": true,
+    },
+    "search.exclude": {
+        "**/.moon/cache": true,
+        "**/templates/cache": true
+    }
+}

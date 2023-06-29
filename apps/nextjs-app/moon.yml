@@ -1,8 +1,12 @@
 type: 'application'
+language: 'typescript'
 
 fileGroups:
   app:
-    - 'pages/**/*'
+    - 'app/**/*'
+    - 'assets/**/*'
+    - 'components/**/*'
+    - 'utils/**/*'
     - 'next-env.d.ts'
     - 'next.config.*'
 
@@ -11,7 +15,6 @@ tasks:
     command: 'next build'
     inputs:
       - '@group(app)'
-      - '@group(sources)'
 
   dev:
     command: 'next dev'
@@ -22,7 +25,4 @@ tasks:
     local: true
 
   lint:
-    command: 'next lint'
-
-  deploy-staging:
-    command: 'pnpm deploy:staging'
+    command: 'next lint --fix'
