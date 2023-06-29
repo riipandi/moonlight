@@ -25,11 +25,11 @@
         "@myorg/eslint-config-next": "workspace:*",
         "@myorg/tailwind-config": "workspace:*",
         "@myorg/tsconfig": "workspace:*",
-        "@types/react": "^18.2.5",
-        "eslint": "^7.32.0",
-        "postcss": "^8.4.20",
+        "@types/react": "^18.2.14",
+        "eslint": "^8.43.0",
+        "postcss": "^8.4.24",
         "react": "^18.2.0",
-        "tsup": "^6.1.3",
+        "tsup": "^7.1.0",
         "typescript": "5.0.4"
     }
 }
