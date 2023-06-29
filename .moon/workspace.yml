@@ -17,8 +17,8 @@ projects:
   - 'packages/*'
 
 vcs:
-    manager: 'git'
-    defaultBranch: 'main'
+  manager: 'git'
+  defaultBranch: 'main'
 
 generator:
   templates:

@@ -1,5 +1,21 @@
 {
     "extends": "./tsconfig.options.json",
-    "files": []
-    // "references": [{ "path": "apps/website" }]
+    "files": [],
+    "references": [
+        {
+            "path": "apps/nextjs-app"
+        },
+        {
+            "path": "packages/eslint-config-next"
+        },
+        {
+            "path": "packages/tailwind-config"
+        },
+        {
+            "path": "packages/tsconfig"
+        },
+        {
+            "path": "packages/ui-library"
+        }
+    ]
 }

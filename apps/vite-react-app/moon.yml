@@ -2,10 +2,10 @@ type: 'application'
 language: 'typescript'
 
 fileGroups:
-    sources:
-        - 'src/**/*'
-    tests:
-        - 'specs/**/*'
+  sources:
+    - 'src/**/*'
+  tests:
+    - 'specs/**/*'
 
 tasks:
   build:

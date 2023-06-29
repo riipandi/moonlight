@@ -4,6 +4,8 @@
     },
     "files.watcherExclude": {
         "**/.moon/**": true,
+        "**/.github/ISSUE_TEMPLATE/**": true,
+        "**/.github/PULL_REQUEST_TEMPLATE.md": true,
         "**/templates/**": true,
     },
     "search.exclude": {

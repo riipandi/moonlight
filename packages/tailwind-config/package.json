@@ -1,0 +1,16 @@
+{
+    "name": "@myorg/tailwind-config",
+    "version": "0.0.0",
+    "private": true,
+    "main": "index.js",
+    "devDependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/typography": "^0.5.9",
+        "clsx": "^1.2.1",
+        "tailwind-merge": "^1.13.2",
+        "tailwind-scrollbar-hide": "^1.1.7",
+        "tailwindcss": "^3.3.2",
+        "tailwindcss-debug-screens": "^2.2.1"
+    }
+}
