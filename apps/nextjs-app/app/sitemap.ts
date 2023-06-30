@@ -1,5 +1,5 @@
-const pageRoutes = ['', '/about', '/blog']
-const baseUrl = 'https://next-start.vercel.app'
+const baseUrl = 'https://myorg.vercel.app'
+const pageRoutes = ['', '/about']
 
 export default async function sitemap() {
   // const res = await fetch('https://.../posts')

@@ -72,6 +72,7 @@ out/
 !.env.example
 build-errors.log
 **/.dockerignore
+!/.dockerignore
 **/fly.toml*
 **/fly.toml
 *.todo

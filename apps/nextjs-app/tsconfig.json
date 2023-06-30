@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "lib": ["dom", "dom.iterable", "esnext"],
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
         "allowJs": true,
         "skipLibCheck": true,
         "strict": true,
@@ -16,13 +20,27 @@
         "incremental": true,
         "strictNullChecks": true,
         "strictFunctionTypes": true,
-        "plugins": [{ "name": "next" }],
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
         "paths": {
-            "@/*": ["./*"],
-            "@myorg/ui": ["../../packages/ui-library/src/index.tsx"],
-            "@myorg/ui/*": ["../../packages/ui-library/src/*"],
-            "@myorg/utils": ["../../packages/common-js-utils/src/index.ts"],
-            "@myorg/utils/*": ["../../packages/common-js-utils/src/*"]
+            "@/*": [
+                "./*"
+            ],
+            "@myorg/ui": [
+                "../../packages/ui-library/src/index.tsx"
+            ],
+            "@myorg/ui/*": [
+                "../../packages/ui-library/src/*"
+            ],
+            "@myorg/utils": [
+                "../../packages/common-js-utils/src/index.ts"
+            ],
+            "@myorg/utils/*": [
+                "../../packages/common-js-utils/src/*"
+            ]
         }
     },
     "ts-node": {
@@ -31,13 +49,30 @@
             "module": "CommonJS"
         }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-    "exclude": ["node_modules"],
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
     "references": [
-        { "path": "../../packages/common-js-utils" },
-        { "path": "../../packages/eslint-config-next" },
-        { "path": "../../packages/tailwind-config" },
-        { "path": "../../packages/tsconfig" },
-        { "path": "../../packages/ui-library" }
+        {
+            "path": "../../packages/common-js-utils"
+        },
+        {
+            "path": "../../packages/eslint-config-next"
+        },
+        {
+            "path": "../../packages/tailwind-config"
+        },
+        {
+            "path": "../../packages/tsconfig"
+        },
+        {
+            "path": "../../packages/ui-library"
+        }
     ]
 }

@@ -26,7 +26,7 @@ RUN pnpm install --no-optional --frozen-lockfile --prod
 # Production image, copy all the files and run the application
 # -----------------------------------------------------------------------------
 FROM base AS runner
-LABEL org.opencontainers.image.source="https://github.com/feelantera/moonlight"
+LABEL org.opencontainers.image.source="https://github.com/riipandi/moonlight"
 
 ARG NODE_ENV production
 ARG DATABASE_URL

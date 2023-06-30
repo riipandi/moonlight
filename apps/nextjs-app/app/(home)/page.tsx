@@ -7,13 +7,13 @@ import { ExternalLink } from '@/components/external-link'
 import VercelLogo from '@/public/images/vercel.svg'
 
 export const metadata: Metadata = {
-  title: 'Moonlight Next.js Starter',
+  title: 'Moonlight Next.js',
   description: 'A starter project for Next.js with Tailwind CSS and Typescript.',
   openGraph: {
     type: 'website',
     images: [
       {
-        url: 'http://next-start.vercel.app/images/og-image.png',
+        url: 'http://myorg.vercel.app/images/og-image.png',
         width: 2048,
         height: 1170,
       },
@@ -29,7 +29,7 @@ export default function Page() {
           <div className='text-center'>
             <p className='text-primary-600 text-lg font-semibold sm:text-2xl'>Howdy, developer!</p>
             <h1 className='mt-4 text-3xl font-bold tracking-tight text-gray-900 dark:invert sm:text-4xl lg:text-6xl'>
-              Welcome to your new app
+              Moonlight Next.js
             </h1>
             <div className='mx-auto mt-8 max-w-4xl'>
               <p className='font-mono text-lg leading-8 text-gray-500 dark:text-gray-200'>
@@ -56,7 +56,7 @@ export default function Page() {
         </div>
         <div className='mt-4 flex items-center justify-center'>
           <ExternalLink
-            href='https://vercel.com?utm_source=next-start&utm_medium=next-start&utm_campaign=next-start'
+            href='https://vercel.com?utm_source=myorg&utm_medium=myorg&utm_campaign=myorg'
             className='pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0'
           >
             <span className='font-medium dark:invert'>Hosted at</span>
@@ -68,10 +68,10 @@ export default function Page() {
         <p className='flex justify-center'>
           <span className='mr-1 text-gray-600 dark:text-gray-200'>Brought to you by</span>
           <ExternalLink
-            href='https://github.com/feelantera'
+            href='https://github.com/riipandi'
             className='text-primary-800 dark:text-primary-500 dark:hover:text-primary-700 group inline-flex items-center space-x-0.5 hover:text-gray-600'
           >
-            <span>Feelantera</span>
+            <span>Aris Ripandi</span>
             <span className='dark:invert'>
               <EvaOutlineExternalLinkOutline />
             </span>
