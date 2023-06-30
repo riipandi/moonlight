@@ -13,7 +13,6 @@ This repository contains skeleton project using [moonrepo](https://moonrepo.dev/
 
 This repo configured with ESLint, Jest, Prettier, TypeScript, and Tailwind CSS as moon tasks.
 To begin, we suggest installing moon globally, read the documentation [here](https://moonrepo.dev/docs/install).
-
 Then, follow these steps:
 
 1. Clone this repository: `npx degit riipandi/moonlight my-new-project`
@@ -25,19 +24,18 @@ Don't forget to replace `my-new-project` with your project name.
 
 Once installed, run the following commands for common tasks:
 
-- `moon check --all` - Run _all_ tasks (below).
-- `moon run :build` - Build all projects.
-- `moon run :lint` - Lint code in all projects.
-- `moon run :test` - Run tests in all projects.
-- `moon run :format` - Format code in all projects.
-- `moon run :typecheck` - Type check code in all projects.
+| Command                     | Description                      |
+| --------------------------- | -------------------------------- |
+| `moon check --all`          | Run all tasks                    |
+| `moon run :build`           | Build all projects               |
+| `moon run :lint`            | Lint code in all projects        |
+| `moon run :test`            | Run tests in all projects        |
+| `moon run :format`          | Format code in all projects      |
+| `moon run :typecheck`       | Type check code in all projects  |
+| `moon run <project>:<task>` | Run specific task by project     |
+| `moon check <project>`      | Run check for individual project |
 
-Tasks can also be focused to individual projects. The list of projects can be found in
-[`.moon/workspace.yml`](./.moon/workspace.yml).
-
-- `moon check <project>`
-- `moon run <project>:<task>`
-- `moon run <project>:dev` - For applications, starts the development server.
+Refer to the [moon tasks documentation](https://moonrepo.dev/docs/run-task) for more details.
 
 ### Generate Package
 
