@@ -1,11 +1,9 @@
 module.exports = {
-  extends: ['next', 'prettier'],
+  extends: ['prettier'],
   plugins: ['simple-import-sort'],
   rules: {
     'no-console': 'warn',
     'react/jsx-key': 'off',
-    '@next/next/no-html-link-for-pages': 'off',
-    '@next/next/no-img-element': 'off',
   },
   overrides: [
     {
@@ -17,7 +15,7 @@ module.exports = {
           {
             groups: [
               // Packages `react` related packages come first.
-              ['^dotenv', '^react', '^next(?!/?$)', '^@?\\w'],
+              ['^dotenv', '^react', '^@?\\w'],
               // Internal packages.
               ['^(@|components)(/.*|$)'],
               // Side effect imports.
@@ -34,9 +32,4 @@ module.exports = {
       },
     },
   ],
-  parserOptions: {
-    babelOptions: {
-      presets: [require.resolve('next/babel')],
-    },
-  },
 }

@@ -1,27 +1,30 @@
 {
+    "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "./tsconfig.options.json",
-    "files": [],
     "references": [
         {
             "path": "apps/nextjs-app"
         },
         {
-            "path": "apps/vite-react-app"
+            "path": "packages/common-fonts"
         },
         {
-            "path": "packages/common-js-utils"
-        },
-        {
-            "path": "packages/eslint-config-next"
-        },
-        {
-            "path": "packages/tailwind-config"
-        },
-        {
-            "path": "packages/tsconfig"
+            "path": "packages/common-utils"
         },
         {
             "path": "packages/ui-library"
+        },
+        {
+            "path": "shared-config/eslint-config-next"
+        },
+        {
+            "path": "shared-config/eslint-config-node"
+        },
+        {
+            "path": "shared-config/tailwind-config"
+        },
+        {
+            "path": "shared-config/tsconfig"
         }
     ]
 }

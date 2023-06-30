@@ -1,12 +1,23 @@
-type: 'application'
-language: 'typescript'
+# yaml-language-server: $$schema=https://moonrepo.dev/schemas/project.json
+
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+type: application
+language: typescript
+platform: node
+
+env:
+  PORT: '4200'
+  NEXT_TELEMETRY_DISABLED: '1'
+
+workspace:
+  inheritedTasks:
+    exclude: ['lint']
 
 fileGroups:
-  app:
-    - 'app/**/*'
-    - 'assets/**/*'
-    - 'components/**/*'
-    - 'utils/**/*'
+  next-app:
+    - 'public/**/*'
+    - 'src/**/*'
     - 'next-env.d.ts'
     - 'next.config.*'
 
@@ -14,7 +25,7 @@ tasks:
   build:
     command: 'next build'
     inputs:
-      - '@group(app)'
+      - '@group(next-app)'
 
   dev:
     command: 'next dev'
@@ -26,3 +37,5 @@ tasks:
 
   lint:
     command: 'next lint --fix'
+    inputs:
+      - '@group(next-app)'

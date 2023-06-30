@@ -1,5 +1,9 @@
 {
+    "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@myorg/tsconfig/react-library.json",
+    "compilerOptions": {
+        "composite": true
+    },
     "include": [
         "."
     ],
@@ -10,13 +14,13 @@
     ],
     "references": [
         {
-            "path": "../eslint-config-next"
+            "path": "../../shared-config/eslint-config-next"
         },
         {
-            "path": "../tailwind-config"
+            "path": "../../shared-config/tailwind-config"
         },
         {
-            "path": "../tsconfig"
+            "path": "../../shared-config/tsconfig"
         }
     ]
 }

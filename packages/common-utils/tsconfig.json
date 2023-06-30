@@ -1,4 +1,5 @@
 {
+    "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@myorg/tsconfig/base.json",
     "compilerOptions": {
         "composite": true,
@@ -10,7 +11,7 @@
     "exclude": ["dist", "build", "node_modules"],
     "references": [
         {
-            "path": "../tsconfig"
+            "path": "../../shared-config/tsconfig"
         }
     ]
 }

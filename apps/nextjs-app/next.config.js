@@ -8,4 +8,7 @@ module.exports = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // Rely on moon for these tasks
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
 }

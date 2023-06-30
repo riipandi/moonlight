@@ -2,6 +2,8 @@
 
 $schema: 'https://moonrepo.dev/schemas/workspace.json'
 
+telemetry: false
+
 # Require a specific version of moon while running commands, otherwise fail.
 # versionConstraint: '>=1.0.0'
 
@@ -15,6 +17,7 @@ $schema: 'https://moonrepo.dev/schemas/workspace.json'
 projects:
   - 'apps/*'
   - 'packages/*'
+  - 'shared-config/*'
 
 vcs:
   manager: 'git'
