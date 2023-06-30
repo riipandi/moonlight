@@ -21,14 +21,15 @@ Then, follow these steps (_don't forget to replace `my-new-project` with your pr
 4. Generate package from available template:
 
 ```sh
-# Genrate package command:
-moon generate TEMPLATE_NAME ./apps/TARGET_DIRECTORY -- --name '@YOUR_COMPANY_NAME/YOUR_APP_NAME' --private
+# Generate package command:
+moon generate TEMPLATE_NAME TARGET_DIRECTORY -- --name '@YOUR_COMPANY_NAME/YOUR_APP_NAME'
 
 # Example Next.js application:
 moon generate nextjs-app ./apps/website -- --name '@myorg/website' --private
 ```
 
-Take a look at [`templates`](./templates/) directory for list all available templates.
+The `--private` flag is optional, Take a look at [`templates`](./templates/) directory for
+list all available templates.
 
 ### Moon commands
 
