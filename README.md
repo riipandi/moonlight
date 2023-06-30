@@ -13,12 +13,22 @@ This repository contains skeleton project using [moonrepo](https://moonrepo.dev/
 
 This repo configured with ESLint, Jest, Prettier, TypeScript, and Tailwind CSS as moon tasks.
 To begin, we suggest installing moon globally, read the documentation [here](https://moonrepo.dev/docs/install).
-Then, follow these steps:
+Then, follow these steps (_don't forget to replace `my-new-project` with your project name_):
 
 1. Clone this repository: `npx degit riipandi/moonlight my-new-project`
 2. Install required toolchain: `moon setup`
+3. Replace `myorg` namespace string with your own.
+4. Generate package from available template:
 
-Don't forget to replace `my-new-project` with your project name.
+```sh
+# Genrate package command:
+moon generate TEMPLATE_NAME ./apps/TARGET_DIRECTORY -- --name '@YOUR_COMPANY_NAME/YOUR_APP_NAME' --private
+
+# Example Next.js application:
+moon generate nextjs-app ./apps/website -- --name '@myorg/website' --private
+```
+
+Take a look at [`templates`](./templates/) directory for list all available templates.
 
 ### Moon commands
 
@@ -37,18 +47,10 @@ Once installed, run the following commands for common tasks:
 
 Refer to the [moon tasks documentation](https://moonrepo.dev/docs/run-task) for more details.
 
-### Generate Package
-
-This command used for generate package from template:
-
-```sh
-moon generate next-app ./apps/website -- --name '@myorg/website' --private
-```
-
 ## Contributing
 
-Thank you for considering contributing to this project! If you wish to help, you can learn more about how you can contribute to this project
-starting by sending us a message via email to: [aris@duck.com][contactmailto].
+Thank you for considering contributing to this project! If you wish to help, you can find out more about how you can
+contribute to this project starting by sending us a message via email to: [aris@duck.com][contactmailto].
 
 ## Thanks to...
 
