@@ -4,7 +4,8 @@ import Link from 'next/link'
 import { EvaOutlineExternalLinkOutline } from '@twistail/icons'
 
 import { ExternalLink } from '@/components/external-link'
-import VercelLogo from '@/public/images/vercel.svg'
+
+import VercelLogo from '~/images/vercel.svg'
 
 export const metadata: Metadata = {
   title: 'Moonlight Next.js',
