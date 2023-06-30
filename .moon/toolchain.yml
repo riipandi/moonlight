@@ -70,12 +70,12 @@ typescript:
   syncProjectReferencesToPaths: true
 
 # Configures Rust within the toolchain.
-rust:
-  # The Rust toolchain to use. Must be a semantic version that includes major, minor, and patch.
-  version: '1.70.0'
+# rust:
+#   # The Rust toolchain to use. Must be a semantic version that includes major, minor, and patch.
+#   version: '1.70.0'
 
-  # List of Cargo binaries to install globally and make available to tasks.
-  bins: ['cargo-generate@0.18.3', 'cargo-make@0.36.11', 'cargo-watch@8.4.0', 'cargo-px@0.1.5']
+#   # List of Cargo binaries to install globally and make available to tasks.
+#   bins: ['cargo-generate@0.18.3', 'cargo-make@0.36.11', 'cargo-watch@8.4.0', 'cargo-px@0.1.5']
 
-  # Sync the configured version above as a channel to the root `rust-toolchain.toml` config.
-  syncToolchainConfig: false
+#   # Sync the configured version above as a channel to the root `rust-toolchain.toml` config.
+#   syncToolchainConfig: false

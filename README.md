@@ -9,17 +9,19 @@
 
 This repository contains skeleton project using [moonrepo](https://moonrepo.dev/) and popular JavaScript tooling.
 
-```sh
-degit riipandi/moonlight my-new-project
-```
-
-> Don't forget to replace `my-new-project` with your project name.
-
 ## Quick Start
 
 This repo configured with ESLint, Jest, Prettier, TypeScript, and Tailwind CSS as moon tasks.
-
 To begin, we suggest installing moon globally, read the documentation [here](https://moonrepo.dev/docs/install).
+
+Then, follow these steps:
+
+1. Clone this repository: `npx degit riipandi/moonlight my-new-project`
+2. Install required toolchain: `moon setup`
+
+Don't forget to replace `my-new-project` with your project name.
+
+### Moon commands
 
 Once installed, run the following commands for common tasks:
 
@@ -30,7 +32,8 @@ Once installed, run the following commands for common tasks:
 - `moon run :format` - Format code in all projects.
 - `moon run :typecheck` - Type check code in all projects.
 
-Tasks can also be focused to individual projects. The list of projects can be found in `.moon/workspace.yml`.
+Tasks can also be focused to individual projects. The list of projects can be found in
+[`.moon/workspace.yml`](./.moon/workspace.yml).
 
 - `moon check <project>`
 - `moon run <project>:<task>`

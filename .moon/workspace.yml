@@ -2,6 +2,8 @@
 
 $schema: 'https://moonrepo.dev/schemas/workspace.json'
 
+# When enabled, will check for a newer moon version and send anonymous usage data to the
+# moonrepo team. This data is used to improve the quality and reliability of the tool.
 telemetry: false
 
 # Require a specific version of moon while running commands, otherwise fail.
@@ -17,12 +19,18 @@ telemetry: false
 projects:
   - 'apps/*'
   - 'packages/*'
-  - 'shared-config/*'
 
 vcs:
   manager: 'git'
   defaultBranch: 'main'
+  provider: 'github'
 
 generator:
   templates:
     - './templates'
+
+hasher:
+  optimization: 'performance'
+
+runner:
+  cacheLifetime: '24 hours'
