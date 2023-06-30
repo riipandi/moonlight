@@ -53,6 +53,9 @@ importers:
       '@myorg/ui':
         specifier: workspace:*
         version: link:../../packages/ui-library
+      '@myorg/utils':
+        specifier: workspace:*
+        version: link:../../packages/common-js-utils
       next:
         specifier: 13.4.7
         version: 13.4.7(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)
@@ -72,15 +75,6 @@ importers:
       '@myorg/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
-      '@tailwindcss/aspect-ratio':
-        specifier: ^0.4.2
-        version: 0.4.2(tailwindcss@3.3.2)
-      '@tailwindcss/forms':
-        specifier: ^0.5.3
-        version: 0.5.3(tailwindcss@3.3.2)
-      '@tailwindcss/typography':
-        specifier: ^0.5.9
-        version: 0.5.9(tailwindcss@3.3.2)
       '@twistail/icons':
         specifier: ^0.1.0
         version: 0.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -105,15 +99,9 @@ importers:
       prettier:
         specifier: ^2.8.8
         version: 2.8.8
-      tailwind-scrollbar-hide:
-        specifier: ^1.1.7
-        version: 1.1.7
       tailwindcss:
         specifier: 3.3.2
         version: 3.3.2
-      tailwindcss-debug-screens:
-        specifier: ^2.2.1
-        version: 2.2.1(tailwindcss@3.3.2)
       typescript:
         specifier: 5.0.4
         version: 5.0.4
@@ -157,6 +145,21 @@ importers:
       vite:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@20.3.2)
+
+  packages/common-js-utils:
+    devDependencies:
+      '@myorg/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      eslint:
+        specifier: ^8.43.0
+        version: 8.43.0
+      tsup:
+        specifier: ^7.1.0
+        version: 7.1.0(postcss@8.4.24)(typescript@5.0.4)
+      typescript:
+        specifier: 5.0.4
+        version: 5.0.4
 
   packages/eslint-config-next:
     dependencies:
@@ -211,15 +214,6 @@ importers:
       '@myorg/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@tailwindcss/aspect-ratio':
-        specifier: ^0.4.2
-        version: 0.4.2(tailwindcss@3.3.2)
-      '@tailwindcss/forms':
-        specifier: ^0.5.3
-        version: 0.5.3(tailwindcss@3.3.2)
-      '@tailwindcss/typography':
-        specifier: ^0.5.9
-        version: 0.5.9(tailwindcss@3.3.2)
       '@types/react':
         specifier: ^18.2.14
         version: 18.2.14
@@ -238,15 +232,6 @@ importers:
       tailwind-merge:
         specifier: ^1.13.2
         version: 1.13.2
-      tailwind-scrollbar-hide:
-        specifier: ^1.1.7
-        version: 1.1.7
-      tailwindcss:
-        specifier: ^3.3.2
-        version: 3.3.2
-      tailwindcss-debug-screens:
-        specifier: ^2.2.1
-        version: 2.2.1(tailwindcss@3.3.2)
       tsup:
         specifier: ^7.1.0
         version: 7.1.0(postcss@8.4.24)(typescript@5.0.4)

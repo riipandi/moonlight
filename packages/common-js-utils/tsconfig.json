@@ -1,0 +1,16 @@
+{
+    "extends": "@myorg/tsconfig/base.json",
+    "compilerOptions": {
+        "composite": true,
+        "lib": ["ES2015"],
+        "module": "ESNext",
+        "target": "ES6"
+    },
+    "include": ["."],
+    "exclude": ["dist", "build", "node_modules"],
+    "references": [
+        {
+            "path": "../tsconfig"
+        }
+    ]
+}

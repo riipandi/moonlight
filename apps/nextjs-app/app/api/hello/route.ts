@@ -1,4 +1,4 @@
-import { jsonResponse, throwResponse } from '@/utils/response'
+import { jsonResponse, throwResponse } from '@myorg/utils'
 
 export const revalidate = 3600
 export const runtime = 'edge'

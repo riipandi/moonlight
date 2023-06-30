@@ -1,6 +1,6 @@
 {
     "extends": "./tsconfig.options.json",
-    "include": ["apps/**/*", "packages/**/*", "**/.eslintrc.js"],
+    "include": ["apps/**/*", "packages/**/*", "**/.eslintrc.cjs"],
     "exclude": [
         "**/.cache/**/*",
         "**/.next/**/*",

@@ -10,6 +10,7 @@
         "lint:fix": "next lint --fix"
     },
     "dependencies": {
+        "@myorg/utils": "workspace:*",
         "@myorg/ui": "workspace:*",
         "next": "13.4.7",
         "react-dom": "18.2.0",

@@ -2,20 +2,11 @@
     "extends": "./tsconfig.options.json",
     "files": [],
     "references": [
-        {
-            "path": "apps/nextjs-app"
-        },
-        {
-            "path": "packages/eslint-config-next"
-        },
-        {
-            "path": "packages/tailwind-config"
-        },
-        {
-            "path": "packages/tsconfig"
-        },
-        {
-            "path": "packages/ui-library"
-        }
+        { "path": "apps/nextjs-app" },
+        { "path": "packages/common-js-utils" },
+        { "path": "packages/eslint-config-next" },
+        { "path": "packages/tailwind-config" },
+        { "path": "packages/tsconfig" },
+        { "path": "packages/ui-library" }
     ]
 }

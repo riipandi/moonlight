@@ -1,4 +1,4 @@
-import { throwResponse } from '@/utils/response'
+import { throwResponse } from '@myorg/utils'
 
 export async function GET(_req: Request) {
   try {

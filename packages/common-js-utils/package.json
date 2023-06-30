@@ -1,0 +1,22 @@
+{
+    "name": "@myorg/utils",
+    "version": "0.0.0",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": "./dist"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "check-types": "tsc --noEmit"
+    },
+    "peerDependencies": {},
+    "dependencies": {},
+    "devDependencies": {
+        "@myorg/tsconfig": "workspace:*",
+        "eslint": "^8.43.0",
+        "tsup": "^7.1.0",
+        "typescript": "5.0.4"
+    }
+}
