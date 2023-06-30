@@ -16,7 +16,7 @@ module.exports = {
           'error',
           {
             groups: [
-              // Packages `react` related packages come first.
+              // Packages `react` and `next` related packages come first.
               ['^dotenv', '^react', '^next(?!/?$)', '^@?\\w'],
               // Internal packages.
               ['^(@|components)(/.*|$)'],

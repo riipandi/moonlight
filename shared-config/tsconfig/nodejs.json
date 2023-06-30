@@ -1,9 +1,10 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "React Library",
+    "display": "Node.js",
     "extends": "./base.json",
     "compilerOptions": {
-        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
         "lib": ["ES2015"],
         "module": "ESNext",
         "target": "ES6"

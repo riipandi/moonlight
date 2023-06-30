@@ -2,8 +2,6 @@
     "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@myorg/tsconfig/nextjs.json",
     "compilerOptions": {
-        "strictNullChecks": true,
-        "strictFunctionTypes": true,
         "paths": {
             "@/*": ["./src/*"],
             "~/*": ["./public/*"],
@@ -11,12 +9,6 @@
             "@myorg/ui/*": ["../../packages/ui-library/src/*"],
             "@myorg/utils": ["../../packages/common-utils/src/index.ts"],
             "@myorg/utils/*": ["../../packages/common-utils/src/*"]
-        }
-    },
-    "ts-node": {
-        "swc": false,
-        "compilerOptions": {
-            "module": "CommonJS"
         }
     },
     "references": [

@@ -1,17 +1,8 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@myorg/tsconfig/react-library.json",
-    "compilerOptions": {
-        "composite": true
-    },
-    "include": [
-        "."
-    ],
-    "exclude": [
-        "dist",
-        "build",
-        "node_modules"
-    ],
+    "include": ["."],
+    "exclude": ["dist", "build", "node_modules"],
     "references": [
         {
             "path": "../../shared-config/eslint-config-next"
