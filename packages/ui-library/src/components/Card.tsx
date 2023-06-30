@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 export const Card = ({ title, cta, href }: { title: string; cta: string; href: string }) => {
   return (
     <a

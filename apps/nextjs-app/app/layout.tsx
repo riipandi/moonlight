@@ -1,8 +1,8 @@
 import { PropsWithChildren } from 'react'
 import { Inter } from 'next/font/google'
+import { cn } from '@myorg/ui'
 
 import { fontMono } from '@/utils/fontloader'
-import { cn } from '@/utils/helpers'
 
 import '@/assets/styles/globals.css'
 

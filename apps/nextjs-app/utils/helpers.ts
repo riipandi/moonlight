@@ -1,11 +1,5 @@
 import { cache } from 'react'
 import type { NextRequest } from 'next/server'
-import { ClassValue, clsx } from 'clsx'
-import { twMerge } from 'tailwind-merge'
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
-}
 
 export function getBaseUrlFromServer(req: NextRequest): string {
   if (!req) {

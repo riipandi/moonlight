@@ -10,7 +10,7 @@
         "moon": "moon --color --log trace"
     },
     "devDependencies": {
-        "@moonrepo/cli": "^1.9.1",
+        "@moonrepo/cli": "^1.9.2",
         "@types/jest": "^29.5.2",
         "@types/node": "^20.3.2",
         "babel-preset-moon": "^2.0.5",
