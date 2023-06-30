@@ -1,5 +1,7 @@
 // tailwind config is required for editor support
 
+const tailwindPreset = '@myorg/tailwind-config/tailwind.config.cjs'
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,5 +9,5 @@ module.exports = {
     // include packages if not transpiling
     // "../../packages/**/*.{js,ts,jsx,tsx}",
   ],
-  presets: [require('@myorg/tailwind-config/tailwind.config.cjs')],
+  presets: [require(tailwindPreset)],
 }
