@@ -19,7 +19,7 @@ import { Inter, JetBrains_Mono } from 'next/font/google'
 // import fontMono800Italic from '@myorg/fonts/font-mono/jetbrains-mono-800-italic.woff2'
 
 export const fontSans = Inter({ subsets: ['latin'] })
-export const fontMono = JetBrains_Mono({ subsets: ['latin'] })
+export const fontMono = JetBrains_Mono({ subsets: ['latin'], variable: '--jetbrains-mono-font' })
 
 // export const fontMono = localFont({
 //   variable: '--jetbrains-mono-font',

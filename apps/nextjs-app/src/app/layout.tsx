@@ -2,6 +2,7 @@ import { PropsWithChildren } from 'react'
 import { cn } from '@myorg/ui'
 
 import { fontMono, fontSans } from '@/utils/fonts'
+
 import '@/app/styles.css'
 
 export default function RootLayout({ children }: PropsWithChildren) {

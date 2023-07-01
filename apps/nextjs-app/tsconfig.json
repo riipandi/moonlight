@@ -2,27 +2,29 @@
     "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@myorg/tsconfig/nextjs.json",
     "compilerOptions": {
+        "allowJs": true,
+        "emitDeclarationOnly": false,
+        "incremental": true,
+        "jsx": "preserve",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "esnext",
+        "noEmit": false,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "resolveJsonModule": true,
+        "target": "es5",
         "paths": {
-            "@/*": [
-                "./src/*"
-            ],
-            "~/*": [
-                "./public/*"
-            ],
-            "@myorg/ui": [
-                "../../packages/ui-library/src/index.tsx"
-            ],
-            "@myorg/ui/*": [
-                "../../packages/ui-library/src/*"
-            ],
-            "@myorg/utils": [
-                "../../packages/common-utils/src/index.ts"
-            ],
-            "@myorg/utils/*": [
-                "../../packages/common-utils/src/*"
-            ]
+            "@myorg/ui": ["../../packages/ui-library/src/index.tsx"],
+            "@myorg/ui/*": ["../../packages/ui-library/src/*"],
+            "@myorg/utils": ["../../packages/common-utils/src/index.ts"],
+            "@myorg/utils/*": ["../../packages/common-utils/src/*"]
         }
     },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "exclude": ["node_modules"],
     "references": [
         {
             "path": "../../packages/common-fonts"

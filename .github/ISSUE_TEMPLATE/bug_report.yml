@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-issue-forms.json
+
 name: '🪲 Bug Report'
 description: "If something isn't working as expected 🤔."
 labels: ['bug']
