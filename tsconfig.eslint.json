@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "./tsconfig.options.json",
-    "include": ["apps/**/*", "packages/**/*", "shared-config/**/*", "**/.eslintrc.cjs"],
+    "include": ["apps/**/*", "packages/**/*", "**/.eslintrc.cjs"],
     "exclude": [
         "**/.cache/**/*",
         "**/.next/**/*",

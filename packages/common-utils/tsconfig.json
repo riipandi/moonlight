@@ -9,9 +9,5 @@
     },
     "include": ["."],
     "exclude": ["dist", "build", "node_modules"],
-    "references": [
-        {
-            "path": "../../shared-config/tsconfig"
-        }
-    ]
+    "references": []
 }

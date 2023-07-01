@@ -3,12 +3,24 @@
     "extends": "@myorg/tsconfig/nextjs.json",
     "compilerOptions": {
         "paths": {
-            "@/*": ["./src/*"],
-            "~/*": ["./public/*"],
-            "@myorg/ui": ["../../packages/ui-library/src/index.tsx"],
-            "@myorg/ui/*": ["../../packages/ui-library/src/*"],
-            "@myorg/utils": ["../../packages/common-utils/src/index.ts"],
-            "@myorg/utils/*": ["../../packages/common-utils/src/*"]
+            "@/*": [
+                "./src/*"
+            ],
+            "~/*": [
+                "./public/*"
+            ],
+            "@myorg/ui": [
+                "../../packages/ui-library/src/index.tsx"
+            ],
+            "@myorg/ui/*": [
+                "../../packages/ui-library/src/*"
+            ],
+            "@myorg/utils": [
+                "../../packages/common-utils/src/index.ts"
+            ],
+            "@myorg/utils/*": [
+                "../../packages/common-utils/src/*"
+            ]
         }
     },
     "references": [
@@ -20,15 +32,6 @@
         },
         {
             "path": "../../packages/ui-library"
-        },
-        {
-            "path": "../../shared-config/eslint-config-next"
-        },
-        {
-            "path": "../../shared-config/tailwind-config"
-        },
-        {
-            "path": "../../shared-config/tsconfig"
         }
     ]
 }

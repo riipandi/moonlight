@@ -3,15 +3,5 @@
     "extends": "@myorg/tsconfig/react-library.json",
     "include": ["."],
     "exclude": ["dist", "build", "node_modules"],
-    "references": [
-        {
-            "path": "../../shared-config/eslint-config-next"
-        },
-        {
-            "path": "../../shared-config/tailwind-config"
-        },
-        {
-            "path": "../../shared-config/tsconfig"
-        }
-    ]
+    "references": []
 }

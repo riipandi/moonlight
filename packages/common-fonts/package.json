@@ -7,6 +7,9 @@
         "font-mono/*.{txt,woff2}",
         "font-sans/*.{txt,woff2}"
     ],
+    "devDependencies": {
+        "@myorg/tsconfig": "workspace:*"
+    },
     "publishConfig": {
         "access": "public"
     }

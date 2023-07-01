@@ -27,7 +27,7 @@
         "@myorg/tsconfig": "workspace:*",
         "@types/react": "^18.2.14",
         "clsx": "^1.2.1",
-        "eslint": "^8.43.0",
+        "eslint": "^8.44.0",
         "postcss": "^8.4.24",
         "react": "^18.2.0",
         "tailwind-merge": "^1.13.2",

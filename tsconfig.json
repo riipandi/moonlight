@@ -15,16 +15,16 @@
             "path": "packages/ui-library"
         },
         {
-            "path": "shared-config/eslint-config-next"
+            "path": "packages/common-config/eslint-config-next"
         },
         {
-            "path": "shared-config/eslint-config-node"
+            "path": "packages/common-config/eslint-config-node"
         },
         {
-            "path": "shared-config/tailwind-config"
+            "path": "packages/common-config/tailwind-config"
         },
         {
-            "path": "shared-config/tsconfig"
+            "path": "packages/common-config/tsconfig"
         }
     ]
 }
