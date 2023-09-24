@@ -20,6 +20,7 @@ lib-cov
 *.db
 *.pem
 logs/
+.turbo
 
 # IDE settings
 .idea/
@@ -67,15 +68,13 @@ next-env.d.ts
 build/
 out/
 
+# Remix
+server/dist
+public/dist
+
 # projects
 .env.*
 !.env.example
 build-errors.log
 **/.dockerignore
 !/.dockerignore
-**/fly.toml*
-**/fly.toml
-*.todo
-
-# Flutter
-.pub-preload-cache/

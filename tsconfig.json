@@ -13,18 +13,6 @@
         },
         {
             "path": "packages/ui-library"
-        },
-        {
-            "path": "packages/common-config/eslint-config-next"
-        },
-        {
-            "path": "packages/common-config/eslint-config-node"
-        },
-        {
-            "path": "packages/common-config/tailwind-config"
-        },
-        {
-            "path": "packages/common-config/tsconfig"
         }
     ]
 }

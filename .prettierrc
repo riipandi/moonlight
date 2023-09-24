@@ -5,9 +5,10 @@
     "bracketSpacing": true,
     "printWidth": 100,
     "quoteProps": "consistent",
-    "semi": false,
+    "semi": true,
     "singleQuote": true,
-    "trailingComma": "es5",
+    "tabWidth": 2,
+    "trailingComma": "all",
     "useTabs": false,
     "plugins": ["prettier-config-moon", "prettier-plugin-tailwindcss"]
 }

@@ -17,3 +17,7 @@ Please tick any that are relevant to this PR and remove any that aren't.
 - [ ] I have performed a self review of my changes
 - [ ] I have updated the documentation where relevant
 - [ ] My changes are well written and all ci is passing
+
+## Screenshots 📷
+
+If possible provide screenshots of your visual changes to make it easier for reviewers.

@@ -3,6 +3,9 @@
     "version": "0.0.0",
     "private": true,
     "license": "OFL-1.1",
+    "sideEffects": [
+        "**/*.woff2"
+    ],
     "files": [
         "font-mono/*.{txt,woff2}",
         "font-sans/*.{txt,woff2}"

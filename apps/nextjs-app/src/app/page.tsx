@@ -10,16 +10,6 @@ import VercelLogo from '~/images/vercel.svg'
 export const metadata: Metadata = {
   title: 'Moonlight Next.js',
   description: 'A starter project for Next.js with Tailwind CSS and Typescript.',
-  openGraph: {
-    type: 'website',
-    images: [
-      {
-        url: 'http://myorg.vercel.app/images/og-image.png',
-        width: 2048,
-        height: 1170,
-      },
-    ],
-  },
 }
 
 export default function Page() {
