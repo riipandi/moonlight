@@ -19,19 +19,19 @@
         "react": "^18.2.0"
     },
     "dependencies": {
-        "@phosphor-icons/react": "^2.0.10"
+        "@phosphor-icons/react": "^2.0.13"
     },
     "devDependencies": {
         "@myorg/eslint-config-next": "workspace:*",
         "@myorg/tailwind-config": "workspace:*",
         "@myorg/tsconfig": "workspace:*",
-        "@types/react": "^18.2.14",
-        "clsx": "^1.2.1",
-        "eslint": "^8.44.0",
-        "postcss": "^8.4.24",
+        "@types/react": "^18.2.22",
+        "clsx": "^2.0.0",
+        "eslint": "^8.50.0",
+        "postcss": "^8.4.30",
         "react": "^18.2.0",
-        "tailwind-merge": "^1.13.2",
-        "tsup": "^7.1.0",
+        "tailwind-merge": "^1.14.0",
+        "tsup": "^7.2.0",
         "typescript": "5.0.4"
     }
 }
